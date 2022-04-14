@@ -1,0 +1,58 @@
+*{
+    font-family: 'Almarai', sans-serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Tajawal', sans-serif;
+}
+:root{
+    --first-color:#5b4834;
+    --second-color: #aaa69d;
+}
+a,a:hover{
+    text-decoration: none;
+}
+body {
+    background:#f3f3f3 !important;
+}
+#side-area{
+    background: var(--first-color);
+    color: #fff;
+    padding: 20px 22px;
+    margin-bottom: 20px;
+}
+#side-area h4 {
+    text-align: center;
+    margin-bottom: 17px;
+}
+#side-area ul {
+    /*there's no margin id=8 end of 10m*/
+    list-style: none;
+    padding: 0;
+}
+#side-area ul li{
+    background: var(--second-color);
+    margin-bottom: 5px;
+    padding: 5px;
+}
+#side-area ul li a{
+    color: #fff;
+}
+#side-area #menu li {
+    background: #000;
+}
+#main-area .first{
+    margin-top: 20px;
+}
+    /*Categories*/
+.add-categories{
+    margin-top: 30px;
+}
+ form button.btn-custom{
+    background: var(--first-color) !important;
+    color: #fff !important;
+    border: 1px solid var(--first-color) !important;
+    padding: 5px 10px !important;
+    
+}
+table tbody tr:first-child{
+    background-color: var(--first-color);
+}
